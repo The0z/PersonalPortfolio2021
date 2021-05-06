@@ -7,7 +7,7 @@ After following the requireemnts (see section below) and passing all 12 units te
 
 WIP WIP WIP
 
-## The Problem
+## The Requirements
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
