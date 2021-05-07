@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 html{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -11,6 +11,10 @@ body{
 
 * {
     box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.5rem;
 }
 
 #navbar {
@@ -27,6 +31,7 @@ body{
     align-items: center;
     background-color: #86C232;
     box-shadow: 0 0 10px;
+    z-index: 1;
 }
 
 /* Navbar scrolling fix */
@@ -107,16 +112,30 @@ h1::before{
 #contactMe{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: #222629;
     color: white;
 }
 
+#contactMeH1{
+    margin-bottom: 0;
+}
+
+.contactMeP{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    background-color: #86C232;
+}
 
 /* Mobile first design requirements */
 /* Put this at the end so it overwrites things properly! */
 @media only screen and (min-width: 768px) {
     /* Desktop Settings */
+    h1{
+        font-size: 3rem;
+    }
+    
     #navbar{
         justify-content: flex-end;
     }
@@ -131,6 +150,6 @@ h1::before{
     }
     .project-tile{
         width: 30vw;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
