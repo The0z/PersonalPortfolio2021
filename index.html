@@ -5,11 +5,12 @@
     <meta name="keywords" content="HTML, CSS, FCC">
     <meta name="author" content="Austin Gallagher">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The0z's pure CSS and HTML Web Portfolio</title>
+    <title>The0z's Personal Portfolio</title>
     
     <!-- Pure CSS only for this challenge -->
     <link rel="stylesheet" href='index.css'>
-
+    <!-- Added icons -- technically still CSS just easier to load icons in! -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Additional Scripts -->
 </head>
 <body>
@@ -69,15 +70,21 @@
             <h1 id='contactMeH1'>Let's Collaborate...</h1>
             <p class='contactMeP'>How about a virtual coffee?</p>
         </header>
-         <a id='profile-link' class='contact-a' target="_blank" href="https://github.com/The0z">GitHub</a>
-         <a class='contact-a' target="_blank" href="https://www.linkedin.com/in/austingallagher-ee/">LinkedIn</a>
-         <a class='contact-a' href="mailto:mraustingallagher@gmail.com">Email</a>
-         <a class='contact-a' target="_blank" href="tel:+14038078565">Phone</a>
+        <article id='contact-me-links'>
+         <div class='contact-me-link'>
+            <a id='profile-link' class='contact-a' target="_blank" href="https://github.com/The0z"><i class="fab fa-github-square"></i> GitHub</a>
+         </div>
+         <div class='contact-me-link'>
+            <a class='contact-a' target="_blank" href="https://www.linkedin.com/in/austingallagher-ee/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+         </div>
+         <div class='contact-me-link'>
+            <a class='contact-a' href="mailto:mraustingallagher@gmail.com"><i class="fas fa-envelope-square"></i> Email</a>
+         </div>
+         <div class='contact-me-link'>
+            <a class='contact-a' target="_blank" href="tel:+14038078565"><i class="fas fa-phone-square"></i> Phone</a>
+         </div>
+        </article>
     </section>
-    
-
-
-
     <!-- Used to test the webpage against FCC requirements -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

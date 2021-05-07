@@ -115,6 +115,8 @@ h1::before{
     align-items: center;
     background-color: #222629;
     color: white;
+    min-height: 50vh;
+    height: fit-content;
 }
 
 #contactMeH1{
@@ -123,10 +125,28 @@ h1::before{
 
 .contactMeP{
     margin-top: 0px;
+    padding: 5px;
     text-align: center;
     color: white;
     background-color: #86C232;
 }
+
+.contact-a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-me-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-me-link{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
 
 /* Mobile first design requirements */
 /* Put this at the end so it overwrites things properly! */
@@ -151,5 +171,11 @@ h1::before{
     .project-tile{
         width: 30vw;
         font-size: 2rem;
+    }
+
+    .contact-me-link{
+        text-align: center;
+        padding: 30px;
+        font-size: 3rem;
     }
 }
