@@ -1,6 +1,8 @@
 # PersonalPortfolio2021
 Portfolio to show off FCC Responsive web design programs.
 
+Live version available at: https://codepen.io/the0z/full/oNZgPyL
+
 ## My Results
 
 After following the requireemnts (see section below) and passing all 12 units test this was my final product:
