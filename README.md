@@ -5,7 +5,13 @@ Portfolio to show off FCC Responsive web design programs.
 
 After following the requireemnts (see section below) and passing all 12 units test this was my final product:
 
-WIP WIP WIP
+### Mobile Version (Built Mobile First Approach)
+
+![PortfolioPage](https://github.com/The0z/PersonalPortfolio2021/blob/main/imgs/MobileView.gif "Portofolio 2021 Mobile View")
+
+### Desktop Version (Using Media Query)
+
+![PortfolioDesktopPage](https://github.com/The0z/PersonalPortfolio2021/blob/main/imgs/DesktopView.gif "Portofolio 2021 Desktop View")
 
 ## The Requirements
 
@@ -24,3 +30,9 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 9. My portfolio should have at least one media query.
 10. The height of the welcome section should be equal to the height of the viewport.
 11. The navbar should always be at the top of the viewport.
+
+### Passing All Unit Tests
+
+![PortfolioTestPass](https://github.com/The0z/PersonalPortfolio2021/blob/main/imgs/TestPassed.gif "Portofolio 2021 Test Passed")
+
+
