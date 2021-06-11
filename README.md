@@ -5,7 +5,7 @@ Live version available at: https://codepen.io/the0z/full/oNZgPyL
 
 ## My Results
 
-After following the requireemnts (see section below) and passing all 12 units test this was my final product:
+After following the requirements (see section below) and passing all 12 units test this was my final product:
 
 ### Mobile Version (Built Mobile First Approach)
 
